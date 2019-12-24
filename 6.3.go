@@ -15,5 +15,5 @@ func main() {
 	fmt.Println(x)
 
 	y := sum()
-	
+	fmt.Println(y)
 }
