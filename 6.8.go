@@ -13,4 +13,5 @@ func (this *ExampleStruct struct) Plus (args []float64,rely *float64) erorr{
 	for _, v := range args {
 		sum = sum + v
 	}
+	*reply = sum
 }
