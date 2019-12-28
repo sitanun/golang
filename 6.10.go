@@ -5,4 +5,5 @@ func clietSide() {
 		return
 	}
 	var reply float64
+	args := []float64{5, 7, 9, 11, 23}
 }
