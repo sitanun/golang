@@ -5,3 +5,5 @@ import (
 	"net"
 	"net/rpc"
 )
+
+type ExampleStruct struct{}
