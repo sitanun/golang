@@ -1,4 +1,7 @@
 func serverSide() {
 	rpc.Register (new(ExamleStruct))
-    ln, _ := nrt.Listen("tcp","8191")
+	ln, _ := nrt.Listen("tcp","8191")
+	for {
+		
+	}
 }
