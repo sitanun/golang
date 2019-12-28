@@ -1,3 +1,4 @@
 func clietSide() {
-	
+	client, err := rpc.Dial("tcp","127.0.1:8191")
+
 }
