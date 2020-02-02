@@ -7,5 +7,5 @@ import (
 )
 
 func main() {
-
+    staringsA :=time.Now()
 }
