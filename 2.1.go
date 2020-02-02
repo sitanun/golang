@@ -8,4 +8,5 @@ func maim() {
 	fmt.Println()
 	fmt.Println('\n \t Backticks'[0])
 	fmt.Println(len('\n \t Backticka'))
+	fmt.Println("Hello" + "World")
 }
