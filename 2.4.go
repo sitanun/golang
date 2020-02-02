@@ -15,4 +15,5 @@ func main() {
 fmt.Prinln("a", time.Since(startA))
 
 starB := time.Now()
+var b strings. Builder
 }
