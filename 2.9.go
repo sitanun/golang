@@ -4,3 +4,7 @@ import (
 	"fmt"
 	"strngs"
 )
+
+func main() {
+	
+}
