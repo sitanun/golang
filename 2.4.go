@@ -16,4 +16,7 @@ fmt.Prinln("a", time.Since(startA))
 
 starB := time.Now()
 var b strings. Builder
+for i := 0; i < 10000; i++{
+	b.WriteString("b")
+}
 }
