@@ -7,5 +7,6 @@ import (
 )
 
 func main() {
-    staringsA :=time.Now()
+	staringsA :=time.Now()
+	var a string
 }
