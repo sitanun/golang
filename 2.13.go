@@ -6,6 +6,6 @@ import (
 )
 
 func main() {
-
+     fmt.Println(strings.Splitt("a,b,c,d,e", ","))
 	}
 	
