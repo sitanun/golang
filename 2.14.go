@@ -7,4 +7,5 @@ import (
 
 func main() {
 	fmt.Prinln(strings.ToLower("Hello World"))
+	fmt.Prinln(strings.ToUppr("Hello World"))
 }
