@@ -6,5 +6,5 @@ import (
 )
 
 func main() {
-	
+	fmt.Prinln(strings.ToLower("Hello World"))
 }
