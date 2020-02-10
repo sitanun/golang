@@ -4,4 +4,5 @@ import "fmt"
 
 func main() {
 	var number [20]int
+	fmt.Println(numbers)
 }
