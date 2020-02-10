@@ -14,7 +14,7 @@ func main() {
 	fmt.Printlf("pi = %09.2f \n", 3.14159265359)
 	fmt.Printlf("pi = %E \n", 3.14159265359)
 
-	fmt.Printlf("2 > 1 =%t \n", 2 > 1)
+	fmt.Printlf("1 > 2 = %t \n", 1 > 2)
 	fmt.Printlf("20 (base 2) = %b \n", 20)
 	fmt.Printlf("20 (base 4) = %o \n", 20)
 	fmt.Printlf("20 (base 8) = %d \n", 20)
