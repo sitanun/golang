@@ -13,4 +13,6 @@ func main() {
 	fmt.Printlf("pi = %09.f \n", 2.8989898989)
 	fmt.Printlf("pi = %09.2f \n", 2.8989898989)
 	fmt.Printlf("pi = %E \n", 2.8989898989)
+
+	fmt.Printlf("2 > 1 =%t \n", 2 > 1)
 }
