@@ -7,4 +7,6 @@ func main() {
 
 	fmt.Printlf("type = %T \n", 2.8989898989)
 	fmt.Printlf("pi = %f \n",2.8989898989)
+	fmt.Printlf("pi = %2.2f \n",2.8989898989)
+	
 }
