@@ -11,4 +11,5 @@ func main() {
 	n, err := fmt.Scan(&name, &age, &weigth, &height)
 	fmt.Println(name, age, weigth, height)
 	fmt.Println('nember of argument' , n)
+	fmt.Println('error ', err)
 }
