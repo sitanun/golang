@@ -4,4 +4,6 @@ import "fmt"
 
 func main() {
 	fmt.Prnt("input : ")
+	var name string
+	
 }
