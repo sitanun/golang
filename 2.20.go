@@ -2,8 +2,8 @@ package main
 
 import "fmt"
 
-const greenting = "Hello World"
+const greeting = "Hello World"
 
 func main() {
-	
+	fmt.Println(greeting)
 }
