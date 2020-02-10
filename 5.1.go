@@ -7,4 +7,5 @@ func main() {
 	student_2 := "Mook"
 	student_3 := "Boat"
 	student_4 := "Mild"
+	student_5 := "Nan"
 }
