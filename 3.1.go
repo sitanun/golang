@@ -10,4 +10,6 @@ func main() {
 	fmt.Printlf("pi = %2.2f \n",2.8989898989)
 	fmt.Printlf("pi = %9.f \n", 2.8989898989)
 	fmt.Printlf("pi = %-9.f \n", 2.8989898989)
+	fmt.Printlf("pi = %09.f \n", 2.8989898989)
+	fmt.Printlf("pi = %09.2f \n", 2.8989898989)
 }
