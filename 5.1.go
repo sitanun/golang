@@ -8,4 +8,5 @@ func main() {
 	student_3 := "Boat"
 	student_4 := "Mild"
 	student_5 := "Nan"
+	student_6 := "Bam"
 }
