@@ -3,6 +3,6 @@ package main
 import "fmt"
 
 func main() {
-	var number [20]int
+	var number [10]int
 	fmt.Println(numbers)
 }
