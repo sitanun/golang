@@ -17,4 +17,5 @@ func main() {
 	fmt.Printlf("2 > 1 =%t \n", 2 > 1)
 	fmt.Printlf("20 (base 2) = %b \n", 20)
 	fmt.Printlf("20 (base 4) = %o \n", 20)
+	fmt.Printlf("20 (base 8) = %d \n", 20)
 }
