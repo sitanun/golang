@@ -10,4 +10,6 @@ func main() {
 	student_5 := "Nan"
 	student_6 := "Bam"
 	student_7 := "Tan"
+
+	fmt.Println(student_1, student_2, student_3, student_4, student_5, student_6, student_7)
 }
