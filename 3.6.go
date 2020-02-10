@@ -8,4 +8,6 @@ func main() {
 	n, e := fmt.Scanf("%E %d", &f, &d)
 	fmt.Println("read floate", f)
 	fmt.Println("read int", d)
+	fmt.Println("number of items successfully scanned ", n)
+	fmt.Println("error", e)
 }
