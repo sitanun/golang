@@ -3,6 +3,6 @@ package main
 import "fmt"
 
 func main(){
-	primes := [5]int{1, 3, 5, 7, 9}
-	fmt.Println(primes[5])
+	primes := [6]int{1, 3, 5, 7, 9, 10}
+	fmt.Println(primes[6])
 }
