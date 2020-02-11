@@ -4,5 +4,6 @@ import "fmt"
 
 func main() {
 	var x []int
-	length := len
+	length := len(x)
+
 }
