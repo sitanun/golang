@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	x := mak([]int, 5)
+	x := make([]int, 5)
 	fmt.Println(x)
 	fmt.Println(len(x))
 	fmt.Println(cap(x))
