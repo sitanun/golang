@@ -8,4 +8,5 @@ func main() {
 	numbers[1] = 8
 	fmt.Println(numbers[1])
 	length := len(numbers)
+	fmt.Println("Lenght =", length)
 }
