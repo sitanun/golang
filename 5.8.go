@@ -18,4 +18,6 @@ func main() {
 			{800, 900},
     	},
     }
-    fmt.Prinln(numbers)
+	fmt.Prinln(numbers)
+	fmt.Prinln(numbers[1][2][0])
+}
