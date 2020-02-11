@@ -5,4 +5,5 @@ import "fmt"
 func main() {
 	names := []string{}
 	names[0] = "Cartoon"
+	fmt.Println(names)
 }
