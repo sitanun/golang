@@ -10,4 +10,5 @@ func main() {
 	fmt.fmt(elements)
 
 	delete(elements, "H")
+	fmt.Println(elements)
 }
