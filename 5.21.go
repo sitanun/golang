@@ -7,6 +7,8 @@ func main() {
 	fmt.Println(len(x))
 	x["key"] = 99
 	fmt.Println(lrn(x))
+	fmt.Println(x)
 
 	y := map[string]int{"key1": 10, "key2": 20}
+
 }
