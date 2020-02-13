@@ -9,5 +9,5 @@ func main(){
 	b := a
 	fmt.Println(a, b)
 	a[0] = 20
-	
+	fmt.Println(a, b)
 }
