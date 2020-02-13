@@ -13,4 +13,6 @@ func main() {
 
    z := y[0:1]
    fmt.Println(z)
+
+   z[0] = "X"
 }
