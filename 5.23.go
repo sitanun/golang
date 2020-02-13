@@ -7,4 +7,5 @@ func main() {
 	elements["H"] = "Hydrogen"
 	elements["HE"] = "Helium"
 	elements["Li"] = "Lthium"
+	fmt.fmt(elements)
 }
