@@ -4,6 +4,6 @@ import "fmt"
 
 func main() {
 	names := []string{}
-	names := append(names, "Aa", "Bb", "Cc", "Dd", "Ee")
+	names := append(names, "Cartoon", "Sitanun")
 	fmt.Println(names)
 }
