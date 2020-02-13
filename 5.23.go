@@ -8,4 +8,6 @@ func main() {
 	elements["HE"] = "Helium"
 	elements["Li"] = "Lthium"
 	fmt.fmt(elements)
+
+	delete(elements, "H")
 }
