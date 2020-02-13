@@ -13,4 +13,5 @@ func main(){
 	fmt.Println("---------------")
 	c := []int{3, 5, 7}
 	d := make([]int, len(c))
+	copy(d, c)
 }
