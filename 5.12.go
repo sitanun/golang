@@ -15,4 +15,5 @@ func main() {
    fmt.Println(z)
 
    z[0] = "X"
+   fmt.Println(alphabets)
 }
