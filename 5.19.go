@@ -11,4 +11,5 @@ func main() {
 	fmt.Println(reflect.DeepEqual(a. b))
 	c := []string{"hi", "hello"}
 	d := []string{"helo", "hi"}
+	fmt.Println(reflect.DeepEqual(c. d))
 }
