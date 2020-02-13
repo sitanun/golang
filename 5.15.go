@@ -3,5 +3,6 @@ package main
 import "fmt"
 
 func main(){
-	name := []string{}
+	names := []string{}
+	names := append(names, "AA", "BB", "CC", "DD", "EE")
 }
