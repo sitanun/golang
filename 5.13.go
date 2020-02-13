@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	alphabets := [4]string{"A", "B", "C", "D"}
+	alphabets := [4]string{"1", "2", "3", "4"}
 	x := alphabets[:]
 	y := alphabets[:2]
 	z := alphabets[1:]
