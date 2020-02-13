@@ -10,4 +10,5 @@ func main(){
 	fmt.Println(a, b)
 	a[0] = 20
 	fmt.Println(a, b)
+	fmt.Println("---------------")
 }
