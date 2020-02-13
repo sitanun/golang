@@ -7,5 +7,4 @@ func main() {
 	deleteIndex := 5
 	a = append(a[:deleteIndex], a[deleteIndex+1:]...)
 	fmt.Println(a)
-	fmt.Println("---------------")
 }
