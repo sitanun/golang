@@ -4,6 +4,6 @@ import "fmt"
 
 func main() {
 	var x map[string]int
-	x["box"] = 99
+	x["key"] = 99
 	fmt.Println(X)
 }
