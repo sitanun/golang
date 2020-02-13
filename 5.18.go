@@ -16,4 +16,5 @@ func main(){
 	copy(d, c)
 	fmt.Println(c, d)
 	c[0] = 20
+	fmt.Println(c, d)
 }
