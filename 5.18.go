@@ -18,4 +18,5 @@ func main(){
 	c[0] = 20
 	fmt.Println(c, d)
 	fmt.Println("---------------")
+	e := make([]int, 1)
 }
