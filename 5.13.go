@@ -4,5 +4,6 @@ import "fmt"
 
 func main() {
 	alphabets := [4]string{"A", "B", "C", "D"}
-	X := alphabets[:]
+	x := alphabets[:]
+	y := alphabets[:2]
 }
