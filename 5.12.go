@@ -10,4 +10,6 @@ func main() {
 
    y := x[2:4]
    fmt.Println(y)
+
+   z := y[0:1]
 }
