@@ -11,4 +11,5 @@ func main(){
 	a[0] = 20
 	fmt.Println(a, b)
 	fmt.Println("---------------")
+	c := []int{3, 5, 7}
 }
