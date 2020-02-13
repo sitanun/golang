@@ -6,10 +6,11 @@ func main() {
    fmt.Println(alphabets)
 
    x := alphabets[0:2]
-   fmt.Println(x)
+   fmt.Println(x) 
 
    y := x[2:4]
    fmt.Println(y)
 
    z := y[0:1]
+   fmt.Println(z)
 }
