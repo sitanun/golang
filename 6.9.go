@@ -5,7 +5,9 @@ import "fmt"
 func main() {
 	number := 1
 	switch number {
-	case 0:
+	case 1:
 		fmt.Println("one")
+	case 2:
+		fmt.Println("two")
 	}
 }
