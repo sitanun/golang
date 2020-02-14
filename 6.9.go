@@ -11,5 +11,7 @@ func main() {
 		fmt.Println("two")
 	case 3:
 		fmt.Println("three")
+	default:
+		fmt.Println("four")
 	}
 }
