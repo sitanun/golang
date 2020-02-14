@@ -6,5 +6,7 @@ func main() {
 	score := 100
 	if score > 90 {
 		fmt.Println("A")
+	} else if score > 80 {
+		
 	}
 }
