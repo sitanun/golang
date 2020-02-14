@@ -10,5 +10,8 @@ type student struct {
 
 func main() {
 	var a student
-	a.name = "Cartoon", 19, "sitanun.ma"
+	a.name = "Cartoon"
+	a.age  = 19
+	a.email = "sitanun.ma"
+
 }
