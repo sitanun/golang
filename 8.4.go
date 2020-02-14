@@ -15,4 +15,7 @@ func main() {
 	var i int
 	fmt.Print("type number :")
 	_, e :=fmt.scan(&i)
+	if e != nil {
+		panic("to much")
+	}
 }
