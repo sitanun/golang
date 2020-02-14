@@ -13,4 +13,6 @@ func main() {
 	p :=&std
 	(p).age = 19
 	p.email = "sitanun.ma"
+
+	fmt.Println(std)
 }
