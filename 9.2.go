@@ -11,4 +11,6 @@ type student struct {
 func main() {
 	var std [10]student
 	std[0] = student{"sitanun", 19, "sitanun.ma"}
+
+	fmt.Println(std[0])
 }
