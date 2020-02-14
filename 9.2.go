@@ -13,4 +13,5 @@ func main() {
 	std[0] = student{"sitanun", 19, "sitanun.ma"}
 
 	fmt.Println(std[0])
+	fmt.Println(std[0].name)
 }
