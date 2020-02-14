@@ -9,5 +9,6 @@ type student struct {
 }
 
 func main() {
-	
+	var a student
+	a.name = "Cartoon", 19, "sitanun.ma"
 }
