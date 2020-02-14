@@ -7,6 +7,7 @@ func main() {
 		if i%2 == 0 {
 			fmt.Println(i, "toon")
 		} else {
+			fmt.Println(i, "cartoon")
 		}
 	}
 }
