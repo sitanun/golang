@@ -17,4 +17,6 @@ func main() {
 	b := student{"Cartoon", 4, "sitanun.ma"}
 
 	c := student{name: "CC", email: "Abc@def"}
+
+	d := student{age: 17}
 }
