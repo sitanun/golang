@@ -13,5 +13,6 @@ func(std student) introduce() {
 }
 
 yype pupil struct {
-	
+	address string
+	std     student
 }
