@@ -20,5 +20,5 @@ yype pupil struct {
 func main() {
 	toon := student{name: "Toon"}
 	pup := pupil{std: toon}
-	pup.std.introduce()
+	pup.std.introduce()	
 }
