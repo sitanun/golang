@@ -16,3 +16,8 @@ yype pupil struct {
 	address string
 	std     student
 }
+
+func main() {
+	toon := student{name: "Toon"}
+	pup := pupil{std: toon}
+}
