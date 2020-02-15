@@ -6,4 +6,5 @@ import (
 
 type student struct {
 	name  string
+	age   int
 }
