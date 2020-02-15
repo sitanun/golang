@@ -7,3 +7,7 @@ typt student struct {
 	age   int
 	email string
 }
+
+func(std student) introduce() {
+	
+}
