@@ -5,5 +5,5 @@ import (
 )
 
 type student struct {
-	
+	name  string
 }
