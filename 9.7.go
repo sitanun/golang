@@ -18,5 +18,5 @@ type pupil struct
 }
 
 func main() {
-	
+	var pup pupil
 }
