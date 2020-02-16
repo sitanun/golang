@@ -1,11 +1,23 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"os"
+)
 
 func main() {
-	ch :=make(chan string, 2)
-	ch <- "Hello"
-	ch <- "Hi"
-	fmt.Prinln(<-ch)
-	fmt.Prinln(<-ch)
+	dir, err := os.Open(".")
+	if err != nil {
+		return
+	}
+	defer dir.Close()
+
+	fileInfos, err :=dir.Readdir(-1)
+	if err != nil {
+		return
+	}
+	for _, fi := range fileInfos {
+		fileInfos := fi.Name()
+		fmt.Println(filename)
+	}
 }
