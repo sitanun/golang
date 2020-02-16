@@ -6,7 +6,7 @@ import (
 	"time"
 )
 
-func say(txt string, sleep time.Duration, wg)
+func say(txt string, sleep time.Duration, wg *sync.WaitGroup)
   defer wg.Done()
   fmt.Println(txt)
   time.sleep(time.Millisecond * sleep)
