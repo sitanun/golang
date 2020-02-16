@@ -19,5 +19,5 @@ func (t T1) F() {
 }
 
 type T2 struct {
-	
+	number int
 }
