@@ -18,5 +18,11 @@ func main() {
 		fmt.Println(err)
 		return
 	}
-	
+
+	fileSize := stat.Size()
+	p := make([]byte, fileSize)
+	file.Read(p)
+
+	str := string(p)
+	fmt.Println(str)
 }
