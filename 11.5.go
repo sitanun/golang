@@ -8,3 +8,4 @@ import (
 
 func say(txt string, sleep time.Duration, wg)
   defer wg.Done()
+  fmt.Println(txt)
