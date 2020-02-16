@@ -12,5 +12,6 @@ func main() {
 	var i I
 	i = 3.1234586745
 	desc(i)
-    i = "Hello World"
+	i = "Hello World"
+	desc(i)
 }
