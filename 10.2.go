@@ -4,3 +4,7 @@ import (
 	"fmt"
 	"myMath"
 )
+
+func main() {
+	
+}
