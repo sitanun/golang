@@ -11,3 +11,8 @@ type myError struct {
 func (e myError) Error() string {
 	return e.error
 }
+func say(ord string) error {
+	if word == "hi" {
+		return myError{"can't say hi"}
+	}
+}
