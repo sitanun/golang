@@ -14,4 +14,5 @@ func say(txt string, sleep time.Duration, wg)
 
 func main() {
 	var wg sync.WaitGroup
+	wg.Add(2)
 }
