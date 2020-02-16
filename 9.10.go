@@ -7,5 +7,5 @@ type I interface {
 }
 
 func desc(i I) {
-	
+	fmt.Printlf("%v, %T \n", i,i)
 }
