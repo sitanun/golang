@@ -15,4 +15,8 @@ func say(ord string) error {
 	if word == "hi" {
 		return myError{"can't say hi"}
 	}
+	return nil
+}
+func main() {
+	
 }
