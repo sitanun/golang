@@ -14,7 +14,7 @@ func hi(t ...interface{}) {
 }
 
 func main() {
-	hello(3.451878655458)
+	hello(3.14159265359)
 	hello(true)
 	hello("Toon")
 	hi("Toon", false, 10, 10e15)
