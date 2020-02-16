@@ -20,4 +20,5 @@ func say(ord string) error {
 func main() {
 	e1 := say("hello")
 	fmt.Println(e1)
+	e2 := say("hi")
 }
