@@ -16,4 +16,8 @@ func main() {
 	if err != nil {
 		return
 	}
+	for _, fi := range fileInfos {
+		fileInfos := fi.Name()
+		fmt.Println(filename)
+	}
 }
