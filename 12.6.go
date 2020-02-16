@@ -3,21 +3,13 @@ package main
 import (
 	"fmt"
 	"os"
+	"path/filepath"
 )
 
+func walkFn(path string, info os.FileInfo, err error) error {
+	fmt.Println(path)
+	return nil
+}
 func main() {
-	dir, err := os.Open(".")
-	if err != nil {
-		return
-	}
-	defer dir.Close()
-
-	fileInfos, err :=dir.Readdir(-1)
-	if err != nil {
-		return
-	}
-	for _, fi := range fileInfos {
-		fileInfos := fi.Name()
-		fmt.Println(filename)
-	}
+	filepath.Walk(".", walkFn)
 }
