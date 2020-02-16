@@ -28,4 +28,7 @@ func (t T2) F() {
 
 func main() {
 	i1 := T1{"Hello World"}
+	i2 := T2{20}
+	desc(i1)
+	desc(i2)
 }
