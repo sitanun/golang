@@ -27,5 +27,5 @@ func (t T2) F() {
 }
 
 func main() {
-	
+	i1 := T1{"Hello World"}
 }
