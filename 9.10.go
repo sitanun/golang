@@ -11,5 +11,5 @@ func desc(i I) {
 }
 
 type T1 struct {
-	
+	text string
 }
