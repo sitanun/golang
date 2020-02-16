@@ -17,3 +17,7 @@ type T1 struct {
 func (t T1) F() {
 	fmt.Println(t.text)
 }
+
+type T2 struct {
+	
+}
