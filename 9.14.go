@@ -5,5 +5,5 @@ import (
 )
 
 type myError struct {
-	
+	error string
 }
