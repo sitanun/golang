@@ -17,4 +17,5 @@ func main() {
 	hello(3.451878655458)
 	hello(true)
 	hello("Toon")
+	hi("Toon", false, 10, 10e15)
 }
