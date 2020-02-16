@@ -1,0 +1,15 @@
+package main
+
+import (
+	"fmt"
+	"io"
+	"strings"
+)
+
+func main() {
+	reader := strings.NewReader("HellWorld")
+	p := make([]byte, 3)
+	for {
+		n, err := reader.Read(p)
+	}
+}
